@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Make Powerloss</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 10px;
+      background-color: #f0f0f0;
+    }
+    h2 {
+      color: #1eaaa3; 
+    }
+    #checkButton {
+      background-color: #1eaaa3;
+      color: #ffffff;
+      border: none;
+      padding: 10px 20px;
+      font-size: 14px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s, transform 0.2s;
+      width: 100%;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    }
+    #checkButton:hover {
+      background-color: #15978c;
+      transform: scale(1.05); 
+    }
+    #status {
+      margin-top: 15px;
+      font-size: 14px;
+      color: #333333; 
+    }
+  </style>
+</head>
+<body>
+  <h2>Make Powerloss Extension</h2>
+  <button id="checkButton">Make Powerloss</button>
+  <div id="status"></div>
+  <script src="popup.js"></script>
+</body>
+</html>
